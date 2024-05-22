@@ -1,0 +1,145 @@
+body{
+	background-image: url("../background2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/* Index */
+.header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.middle{
+	margin-bottom: 50px;
+}
+
+.login_box{
+	background: white;
+	padding: 10Px 50px;
+	border-radius: 2%;
+	text-align: center;
+	box-shadow: 0 15px 60px 0px rgb(0,0,0, .25);
+}
+.middle h1{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.middle label{
+	font-family: 'Pacifico', cursive;
+}
+
+.middle input{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 22px;
+    	width: 350px;
+    	border: 1px solid lightsalmon;
+    	border-radius: 15px;
+	outline: none;
+	background: none;
+}
+
+#submit_button{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	font-size: 25px;
+    	width: 350px;
+    	border: 1px solid lightsalmon;
+    	border-radius: 15px;
+	outline: none;
+	cursor: pointer;
+}
+
+.middle input:hover{
+    border: 1px solid green;
+}
+
+#submit_button:hover{
+	color: green;
+	border: 1px solid green;
+}
+/* End Index */
+
+
+/* Attendance */
+#name_h1{
+	font-family: 'Allison', cursive;
+	font-size: 60px;
+}
+
+.attendace_button{
+	text-align: center;
+}
+
+#img2{
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+}
+
+.attendace_button h3{
+	font-family: 'Hina Mincho', serif;
+	font-size: 20px;
+}
+
+.logout_button{
+	text-align: center;
+}
+
+#img3{
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+}
+
+.logout_button h3{
+	font-family: 'Hina Mincho', serif;
+	font-size: 20px;
+}
+
+
+/*Result*/
+.success {
+	margin-bottom: 15px;
+	padding: 4px 12px;
+	background-color: #ddffdd;
+	border-left: 6px solid #04AA6D;
+	font-family: 'Hina Mincho', serif;
+	font-size: 40px;
+	margin:0px 80px;
+	text-align: center;
+}
+
+
+/**Admin Search*/
+
+.table input{
+	width: 255px;
+	height: 38px;
+	border: 1px solid black;
+	border-radius: 5px;
+	outline: none;
+}
+
+#search{
+	border: 1px solid black;
+	border-radius: 10%;
+	outline: none;
+	cursor: pointer;
+}
+
+table {
+	text-align: center;
+}
+
+/*Footer*/
+
+.footer{
+	background-color: #cccccc;
+	border-top: 1px solid #cccccc;
+	text-align: center;
+}
